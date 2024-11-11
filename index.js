@@ -32,7 +32,7 @@ const quizzes = {
 }
 
 const PORT = 3000
-app.get('/generals', (req, res) => {
+app.get('/', (req, res) => {
     
     res.send(quizzes);
 })
